@@ -1,0 +1,21 @@
+.heart{
+    position:relative;
+    height:160px;
+    width:100px;
+    background-color: aqua;
+    border-radius: 200px 200px 0 0;
+    transform:rotate(45deg);
+    left: 100px;
+    top: 100px;
+}
+.heart::before{
+    content:"";
+    position: absolute;
+    background:aqua;
+    height:160px;
+    width:100px;
+    transform:rotate(-90deg);
+    border-radius:200px 200px 0 0;
+    left:-30px;
+    top: 30px;
+}
